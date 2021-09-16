@@ -39,6 +39,7 @@ export default class Create extends Component {
     }
 
 // This function will handle the submission.
+//When a POST request is sent to the create URL, axios will add a new record to the database.
     onSubmit(e) {
         e.preventDefault();
 
